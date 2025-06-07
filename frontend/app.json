@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "MindBoosterProject",
+    "slug": "MindBoosterProject",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "icon": "./assests/images/idea.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      "expo-font",
+      "expo-video"
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    }
+  }
+}
