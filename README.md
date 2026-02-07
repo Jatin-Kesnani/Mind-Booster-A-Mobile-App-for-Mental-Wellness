@@ -19,7 +19,7 @@
 ## 🛠️ Tools and Technologies
 
 - **Frontend**: React Native  
-- **Backend & Database**: MongoDB Atlas (for user authentication, cloud storage, and real-time database)  
+- **Backend & Database**: MongoDB Atlas and Supabase (for user authentication, cloud storage, and real-time database)  
 - **Data Visualization**: Chart.js (for interactive graphs)  
 - **APIs**:
   - Motivational Content API for dynamic quotes and media  
